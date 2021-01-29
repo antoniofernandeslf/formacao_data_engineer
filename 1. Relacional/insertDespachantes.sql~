@@ -1,0 +1,12 @@
+--INSERE DESPACHANTES
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Carminda Pestana','Ativo','Santa Maria');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Deolinda Vilela','Ativo','Novo Hamburgo');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Emídio Dornelles','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Felisbela Dornelles','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Graça Ornellas','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Matilde Rebouças','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Noêmia   Orriça','Ativo','Santa Maria');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Roque Vásquez','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Uriel Queiroz','Ativo','Porto Alegre');
+INSERT INTO DESPACHANTES (NOME, STATUS, FILIAL) VALUES ('Viviana Sequeira','Ativo','Porto Alegre');
+
