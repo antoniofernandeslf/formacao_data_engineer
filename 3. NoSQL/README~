@@ -1,0 +1,9 @@
+Importar contratos para o MongoDB
+
+-- Comandos Executados --
+mongoimport --legacy --db dbcontratos --collection contratos --file '/home/cloudera/RoboCar/c.Contratos/contratos.json'
+mongo
+
+use dbcontratos
+db.contratos.find().pretty()
+
