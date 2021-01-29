@@ -1,0 +1,15 @@
+Gerenciamento diario do número de contratos de risco (WordCount com py)
+
+-- Comandos Executados --
+
+pyspark
+
+arquivo = sc.textFile("file:///home/cloudera/RoboCar/c.Contratos/contratos.json")
+pesquisa = arquivo.flatMap(lambda palavra: palavra.split(" ")).filter(lambda palavra: (palavra =="risco"))
+pesquisa = pesquisa.map(lambda pal: (pal,1))
+pesquisa = pesquisa.reduceByKey(lambda a, b: a + b)
+pesquisa.saveAsTextFile("risco")
+quit()
+
+hdfs dfs -ls /user/cloudera/risco/
+hdfs dfs -cat /user/cloudera/risco/part-00000
